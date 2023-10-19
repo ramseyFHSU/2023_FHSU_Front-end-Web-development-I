@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My First JavaScript Class</title>
+  </head>
+  <body>
+    <h1>Welcome to JavaScript!</h1>
+    <p id="demo">This is a sample paragraph.</p>
+    <button onclick="changeText()">
+      Click me to change the paragraph text
+    </button>
+
+    <script>
+      function changeText() {
+        // Get the paragraph element by its id
+        let paragraph = document.getElementById("demo");
+
+        // Change the text of the paragraph
+        paragraph.innerHTML = "The text has been changed using JavaScript!";
+      }
+    </script>
+  </body>
+</html>
